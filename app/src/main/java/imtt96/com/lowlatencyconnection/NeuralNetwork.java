@@ -88,6 +88,7 @@ public class NeuralNetwork {
         for (int i = 0; i < layer.length; i++) {
             result[i] = 1.0 / (1.0 + Math.pow(Math.E, (-1.0 * layer[i])));
         }
+
         return result;
     }
 
