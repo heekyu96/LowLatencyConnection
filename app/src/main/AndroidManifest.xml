@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!--<activity android:name=".Activities.ConnectActivity">-->
-        <activity android:name=".Activities.TestActivity">
+        <activity android:name=".DataLoader">
         <!--<activity android:name=".Activities.MainActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service android:name=".Services.WifiSearchService"/>
         <service android:name=".Services.BluetoothSearchService"/>
         <service android:name=".Services.LearningService"/>
